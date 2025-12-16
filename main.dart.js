@@ -64524,8 +64524,8 @@ s=p}for(;;)switch(s){case 0:f=n.e
 if(f!=null)f.ah()
 p=4
 m="daws_"+B.i.b_(Date.now(),1e4)
-f=n.b=new A.XF("ws://test.mosquitto.org",m,new A.fh(B.aW,B.bc,B.co))
-f.b=8080
+f=n.b=new A.XF("wss://test.mosquitto.org",m,new A.fh(B.aW,B.bc,B.co))
+f.b=8081
 j=A.c(["mqtt"],t.s)
 f.z=j
 i=f.y
@@ -64551,7 +64551,7 @@ f.b=!0
 f.d=B.as
 l=h
 n.b.syY(l)
-A.dX("MQTT: Connecting to ws://test.mosquitto.org:8080...")
+A.dX("MQTT: Connecting to wss://test.mosquitto.org:"+n.b.b+"...")
 s=7
 return A.O(n.b.fY(),$async$fY)
 case 7:f=n.b
